@@ -139,10 +139,10 @@ Production Environment
 npx cypress open --config-file cypress.production.config.js
 ```
 
-## Output
+### Output
 After running the test suite, a CSV file named `pullRequests.csv` will be generated in the `cypress/downloads/` directory. This file lists the open pull requests with columns for the **PR name**, **creation date**, and **author**.
 
-## Test Case Summary
+### Test Case Summary
 * **Test Case 1** - Check there is no console errors on the page load.
 
 * **Test Case 2** - Check status codes for all internal links.
@@ -152,7 +152,7 @@ After running the test suite, a CSV file named `pullRequests.csv` will be genera
 * **Test Case 4** - List open pull requests in CSV file from GitHub.
 
 
-## File and Code Structure
+### File and Code Structure
 The code is organized to support ease of maintenance, scalability, and configurability, ensuring production-level quality in testing.
 
 * **Test Cases:** Organized within `/cypress/e2e/fashionHub.cy.js`.
@@ -161,7 +161,7 @@ The code is organized to support ease of maintenance, scalability, and configura
 
 * **Main Configuration:** `/cypress.config.js` handles environment selection, ensuring flexibility by prioritizing command-line arguments and falling back to defaults if none are specified.
 
-## Additional Notes
+### Additional Notes
 * **Retries:** The configuration includes automatic retries for each test to account for transient issues.
 
 * **Error Logging:** Test cases include comprehensive error handling, capturing console errors and verifying HTTP status codes to ensure site reliability.
