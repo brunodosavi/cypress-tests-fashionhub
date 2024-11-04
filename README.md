@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-This project provides an automated test suite for the FashionHub website using **Cypress**. The suite supports cross-environment testing, including **local**, **staging**, and **production** environments, and is designed with best practices for scalability and maintenance.
+This project provides an automated test suite for the FashionHub website using **Cypress**. The suite supports cross-environment testing, including **local**, **staging**, and **production** environments.
 
 ### Prerequisites
 
