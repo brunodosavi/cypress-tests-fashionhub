@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "e2e:chrome": "cypress run --browser chrome",
-    "cy:prod": "cypress open --config-file cypress.production.config.js",
-    "cy:staging": "cypress open --config-file cypress.staging.config.js",
-    "cy:local": "cypress open --config-file cypress.local.config.js"
+    "cy:prod": "cypress run --config-file cypress.production.config.js",
+    "cy:staging": "cypress run --config-file cypress.staging.config.js",
+    "cy:local": "cypress run --config-file cypress.local.config.js"
   },
   "keywords": [],
   "author": "",
