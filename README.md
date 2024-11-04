@@ -63,9 +63,9 @@ Environment configurations are set up in the `/cypress.config.js` files. These f
 
 *   **`cypress.config.js`** – For local testing
     
-*   **`cypress.config.staging.js`** – For the staging environment
+*   **`cypress.staging.config.js`** – For the staging environment
     
-*   **`cypress.config.production.js`** – For the production environment
+*   **`cypress.production.config.js`** – For the production environment
     
 In the root of the project, under env folder, create `.env` files for each environment, as You can see bellow.
 
