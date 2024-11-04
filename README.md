@@ -165,5 +165,3 @@ The code is organized to support ease of maintenance, scalability, and configura
 * **Retries:** The configuration includes automatic retries for each test to account for transient issues.
 
 * **Error Logging:** Test cases include comprehensive error handling, capturing console errors and verifying HTTP status codes to ensure site reliability.
-
-To contribute or further customize this setup, feel free to extend the configuration files or add new test cases under `/cypress/e2e`.
