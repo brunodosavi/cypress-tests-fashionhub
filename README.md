@@ -145,7 +145,7 @@ After running the test suite, a CSV file named `pullRequests.csv` will be genera
 ## Test Case Summary
 * **Test Case 1** - Check there is no console errors on the page load.
 
-* **Test Case 2** - Validate status codes for all internal links.
+* **Test Case 2** - Check status codes for all internal links.
 
 * **Test Case 3** - Log in successfully with valid credentials.
 
