@@ -59,7 +59,7 @@ npm install
 ```
 
 ### 3. Environment Configuration
-Environment configurations are set up in the `/cypress.config.js` files. These  files define the `baseUrl` for each environment:
+Environment configurations are set up in the `/cypress.config.js` files. These files define the `baseUrl` for each environment:
 
 *   **local.json** – For local testing
     
