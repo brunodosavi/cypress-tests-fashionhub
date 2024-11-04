@@ -109,7 +109,7 @@ This command allows you to select and run tests manually in the Cypress interfac
 ### 2. Running Tests in Different Environments
 To execute tests in different environments, use the following commands. These commands pass environment variables to Cypress, allowing it to pick the appropriate configuration file.
 
-**Running tests in headless mode**
+**Running tests in headless mode:**
 
 Local Environment
 ```bash
