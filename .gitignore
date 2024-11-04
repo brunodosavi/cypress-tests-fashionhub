@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Environment files
+env/*.env*
+
+# Cypress output
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency lock file (optional)
+package-lock.json
