@@ -89,6 +89,8 @@ CYPRESS_USERNAME=your_username_here
 CYPRESS_PASSWORD=your_password_here
 CYPRESS_PR_API=your_api_endpoint_here
 ```
+*   Use the following details to login: `Username: demouser Password: fashion123`
+*   Use the following endpoint: `https://github.com/appwrite/appwrite/pulls`
 
 Each configuration file is used based on the environment specified in the command line, with a fallback to the `local` environment if no argument is provided.
 
