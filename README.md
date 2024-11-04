@@ -41,14 +41,14 @@ CYPRESS-FASHIONHUB
 ```
 
 
-## Setup Instructions
+### Setup Instructions
 
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/brunodosavi/cypress-fashionhub-tests.git
-cd cypress-project
+git clone https://github.com/brunodosavi/cypress-tests-fashionhub.git
+cd cypress-tests-fashionhub
 ```
 
 ### 2. Install Dependencies
