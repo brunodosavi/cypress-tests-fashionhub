@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  fashionhub-demo-app:
+    image: pocketaces2/fashionhub-demo-app
+    ports:
+      - "4000:4000"
+    container_name: fashionhub-demo
+    networks:
+      - cypress-net
+
+  cypress:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      CYPRESS_baseUrl: "http://localhost:4000/fashionhub/"
+    depends_on:
+      - fashionhub-demo-app
+    networks:
+      - cypress-net
+
+networks:
+  cypress-net:
+    driver: bridge
